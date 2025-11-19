@@ -14,7 +14,7 @@ const Contact = () => {
 
 
 
-          <div className='  max-w-5xl  mx-auto lg:flex grid grid-cols-1 lg:grid-cols-2 gap-5 lg:ps-50 '>
+          <div className='  max-w-5xl  mx-auto  grid grid-cols-1 lg:grid-cols-2 gap-5 lg:ps-50 sm:ps:20'>
             <div className=''>
               <form className="submit   rounded-box w-xs space-y-5  p-4">
 

@@ -10,7 +10,7 @@ const Headers = () => {
                         <div className="hero-content flex-col lg:flex-row-reverse">
                           <img
                             src="/images/WhatsApp Image 2025-10-18 at 03.21.46.jpeg"
-                            className="max-w-sm rounded-full  w-1/2 shadow-2xl animate-[float_3s_ease-in-out_infinite] h-75"
+                            className=" rounded-full  w-36 sm:w-48 md:64 lg:w-64 xl:w-64 h-auto mx-auto animate-[float_3s_ease-in-out_infinite]  "
                           />
                           <div>
                             <h1 className="text-5xl font-bold">Hi, I'm <span className='text-purple-500'>Akash Hossain </span></h1>

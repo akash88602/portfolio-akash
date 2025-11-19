@@ -15,13 +15,13 @@ const AboutUs = () => {
             
                       <div className='flex flex-col lg:flex-row gap-10 ps-5   max-w-5xl mx-auto '>
                         <div>
-                          <img src="/images/WhatsApp Image 2025-10-18 at 03.21.46.jpeg" alt="" className=' w-2/3 lg:h-full  lg:w-full rounded-2xl' />
+                          <img src="/images/WhatsApp Image 2025-10-18 at 03.21.46.jpeg" alt="" className=' w-2/3 lg:h-full  lg:w-full rounded-2xl sm:w-1/2' />
                         </div>
                         <div className='space-y-10  '>
                           <h1 className='text-3xl'>My Journey </h1>
                           <h3 className=' w-2/3'>I'm a passionate frondent developer with over 1 years of experience creating digital solutions for businesses around the world. My journey started with basic HTML/CSS websites and has evolved into building complex web applications with modern frameworks.</h3>
                           <h3 className='w-2/3'>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through tech blogs and tutorials. I believe in continuous learning and pushing the boundaries of what's possible on the web.</h3>
-                          <div className='  grid  lg:w-150 gap-5 grid-cols-1 lg:grid-cols-2 w-67 '>
+                          <div className='  grid  lg:w-150 gap-5 grid-cols-1 lg:grid-cols-2  '>
                             <div className='bg-gray-600 p-5 rounded-xl'>
                               <p className='text-3xl text-purple-500'><IoFlameSharp /></p>
                               <h4 className='text-3xl'>Innovative</h4>

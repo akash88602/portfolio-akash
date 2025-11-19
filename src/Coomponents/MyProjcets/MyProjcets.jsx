@@ -14,7 +14,7 @@ const MyProjcets = () => {
 
           <div className=''>
             <div className='  grid   gap-10 grid-cols-1 lg:grid-cols-3 max-w-6xl mx-auto   '>
-              <div className="card bg-gray-600  w-96 shadow-sm">
+              <div className="card bg-gray-700  w-96 shadow-sm rounded-xl">
                 <figure className='h-60 w-full overflow-hidden'>
                   <img
                     src="images/Project1 pic.avif"

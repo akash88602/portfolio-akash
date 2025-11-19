@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
-        <div className='bg-gray-900   text-gray-300 top'> 
+        <div  > 
           <Headers></Headers>
           <AboutUs></AboutUs>
           <MySkills></MySkills>
