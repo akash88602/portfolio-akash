@@ -4,9 +4,6 @@ import { MdBorderColor } from "react-icons/md";
 import { FaReact } from "react-icons/fa6";
 import { FaDatabase } from "react-icons/fa6";
 import { RiAdminFill } from "react-icons/ri";
-import { ImLocation2 } from "react-icons/im";
-import { MdEmail } from "react-icons/md";
-import { FaPhone } from "react-icons/fa6";
 import TextAnimation from './Coomponents/TextAnimation/TextAnimation'
 
 
