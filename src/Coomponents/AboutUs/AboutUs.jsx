@@ -9,7 +9,7 @@ const AboutUs = () => {
                     {/* About */}
                     <div className='animate-[fadeUp_1.5s_ease-out] bg-gray-800 text-white  px-5 '>
                       <div className='text-center lg:m-20 space-y-3 m-5 '>
-                        <h1 className='text-3xl font-bold'>About <span className='text-purple-500'>Me</span> </h1>
+                        <h1 className='text-3xl font-bold sm:text-4xl md:text-5xl'>About <span className='text-purple-500'>Me</span> </h1>
                         <h3 className='text-gray-300' >Get to know more about my background and passion</h3>
                       </div>
             

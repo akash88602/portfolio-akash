@@ -6,15 +6,15 @@ const Headers = () => {
         <div>
                     {/* img */}
                     <div className='bg-gray-900 text-white'>
-                      <div className="hero min-h-[96vh]   px-5 md:px-10 lg:px-20 ">
-                        <div className="hero-content flex-col lg:flex-row-reverse gap-16">
+                      <div className="hero min-h-screen   px-5 sm:px-6 md:px-10 lg:px-20 pt-8  ">
+                        <div className="hero-content flex flex-col-reverse lg:flex-row-reverse items-center gap-8 sm:pt-16 lg:gap-16 lg:text-left">
                           <img
                             src="/images/WhatsApp Image 2025-10-18 at 03.21.46.jpeg"
-                            className=" rounded-full  w-36 sm:w-40 md:w-52 lg:w-64 xl:w-64 h-auto mx-auto animate-[float_3s_ease-in-out_infinite]  "
+                            className=" rounded-full  w-48 sm:w-48 md:w-52 lg:w-64 xl:w-64 h-auto mx-auto animate-[float_3s_ease-in-out_infinite]  "
                           />
                           <div>
                             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Hi, I'm <span className='text-purple-500'>Akash Hossain </span></h1>
-                            <h2 className="text-3xl font-bold py-2">
+                            <h2 className="text-3xl font-bold py-2 sm:text-4xl md:text-5xl">
                              <TextAnimation></TextAnimation>
                             </h2>
                             <p className="py-5 max-w-xl text-gray-300">

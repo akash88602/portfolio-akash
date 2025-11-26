@@ -6,7 +6,7 @@ const MySkills = () => {
     return (
         <div>
               {/* My skill */}
-        <div className='animate-[fadeUp_1.5s_ease-out]'>
+        <div className='animate-[fadeUp_1.5s_ease-out] '>
           <div className='text-center lg:m-20 space-y-5 m-5 '>
             <h1 className='text-3xl font-bold sm:text-4xl md:text-5xl'>My  <span className='text-purple-500'>Skills</span> </h1>
             <h3 className='text-gray-300' >Technologies I work with to bring ideas to life</h3>
@@ -14,14 +14,14 @@ const MySkills = () => {
 
 
 
-          <div className='  '>
-            <div className='  grid    grid-cols-1  lg:grid-cols-3 gap-6  max-w-6xl mx-auto  '>
+          <div className=' px-5 '>
+            <div className='  grid    grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-6  max-w-6xl mx-auto  '>
               <div className='bg-gray-700 p-3 w-full shadow-lg  rounded-xl'>
                 <h1 className='text-3xl font-bold  gap-4 flex justify-baseline'>
                   <span className='mt-2 text-6xl text-purple-500'><FaReact /></span> <span>Frontend <br /> Development</span>
                 </h1>
                 <p className=' '>Building responsive and interactive user interfaces with modern frameworks.</p>
-                <div className='flex gap-2 mt-3'>
+                <div className='flex gap-2 mt-3 '>
                   <p className='px-3 py-1 bg-purple-500 rounded-full text-sm'>React </p>
                   <p className='px-3 py-1 bg-purple-500 rounded-full text-sm'>vue.js </p>
                 </div>

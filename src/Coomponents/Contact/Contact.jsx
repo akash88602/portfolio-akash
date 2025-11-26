@@ -3,77 +3,77 @@ import { ImLocation2 } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 const Contact = () => {
-    return (
-        <div>
-              {/* Get IN Contact */}
-        <div className='animate-[fadeUp_1.5s_ease-out]'>
-          <div className='text-center lg:m-20 space-y-5 m-5 '>
-            <h1 className='text-3xl font-bold'>Get In  <span className='text-purple-500'>Contact</span> </h1>
-            <h3 className='text-gray-300' >Have a project in mind or want to collaborate? Let's talk!</h3>
+  return (
+    <div>
+      {/* Get IN Contact */}
+      <div className='animate-[fadeUp_1.5s_ease-out]'>
+        <div className='text-center  lg:m-20 space-y-5 m-5 '>
+          <h1 className='text-3xl font-bold sm:text-4xl md:text-5xl'>Get In  <span className='text-purple-500'>Contact</span> </h1>
+          <h3 className='text-gray-300' >Have a project in mind or want to collaborate? Let's talk!</h3>
+        </div>
+
+
+
+        <div className='  max-w-5xl  mx-auto  grid grid-cols-1 md:grid-cols-2 gap-10 px-4 md:px-6 lg:px-10 '>
+          <div className=''>
+            <form className="submit space-y-4 bg-gray-800 p-6 sm:p-8 ">
+
+
+              <label className="label font-bold text-2xl text-white">Name</label>
+              <input type="text" className="input bg-gray-500 font-semibold w-full  " placeholder="Your Name" />
+
+              <label className="label font-bold text-2xl text-white">Email Address</label>
+              <input type="text" className="input bg-gray-500 font-semibold w-full " placeholder="your email address" />
+
+              <label className="label font-bold text-2xl text-white">Your Message</label>
+
+              <textarea name="" id="" className="w-full h-32 text-white rounded-lg outline-none  bg-gray-500 font-semibold " placeholder="write your message"></textarea>
+
+              <button
+                type="submit"
+                className="w-full px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 bg-purple-500 transition-colors"
+              >
+                Send Message
+              </button>
+
+            </form>
+
           </div>
 
-
-
-          <div className='  max-w-5xl  mx-auto  grid grid-cols-1 lg:grid-cols-2 gap-5 lg:ps-50 sm:ps:20'>
-            <div className=''>
-              <form className="submit   rounded-box w-xs space-y-5  p-4">
-
-
-                <label className="label font-bold text-2xl text-white">Name</label>
-                <input type="text" className="input bg-gray-500 font-semibold  " placeholder="Your Name" />
-
-                <label className="label font-bold text-2xl text-white">Email Address</label>
-                <input type="text" className="input bg-gray-500 font-semibold " placeholder="your email address" />
-
-                <label className="label font-bold text-2xl text-white">Your Message</label>
-
-                <textarea name="" id="" className="w-full h-32 text-white rounded-lg outline-none  bg-gray-500 font-semibold " placeholder="write your message"></textarea>
-
-                <button
-                  type="submit"
-                  className="w-full px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 bg-purple-500 transition-colors"
-                >
-                  Send Message
-                </button>
-
-              </form>
-
+          <div className="sm:p-6 p-4 space-y-8 mt-4 ms-2 ">
+            <div className="flex items-center gap-5  ">
+              <h3 className="text-2xl font-bold  "><ImLocation2 /></h3>
+              <span className="  font-bold text-2xl  ">
+                Location
+              </span>
             </div>
-
-            <div className="p-6 card-hover ">
-              <div className="flex gap-5  ">
-                <h3 className="text-2xl font-bold pt-2 "><ImLocation2 /></h3>
-                <span className="  font-bold text-2xl ">
-                  Location
-                </span>
-              </div>
-              <p className="text-gray-400 font-sans ms-10">Joypurhat Sodor, Rajshahi</p>
-              <div className="flex gap-5 mt-10 ">
-                <h3 className="text-2xl font-bold pt-2 "><MdEmail /></h3>
-                <span className="  font-bold text-2xl ">
-                  Email
-                </span>
-              </div>
-              <p className="text-gray-400 font-sans ms-10">mdakashhossin88601@gmail.com</p>
-              <div className="flex gap-5 mt-10">
-                <h3 className="text-2xl font-bold pt-2 "><FaPhone /></h3>
-                <span className="  font-bold text-2xl ">
-                  Phone
-                </span>
-              </div>
-              <p className="text-gray-400 font-sans ms-10">01756303112 , 01585532868</p>
+            <p className="text-gray-400 font-sans ms-10">Joypurhat Sodor, Rajshahi</p>
+            <div className="flex items-center gap-5  ">
+              <h3 className="text-2xl font-bold pt-2 "><MdEmail /></h3>
+              <span className="  font-bold text-2xl ">
+                Email
+              </span>
+            </div>
+            <p className="text-gray-400 font-sans ms-10">mdakashhossin88601@gmail.com</p>
+            <div className="flex items-center gap-5 ">
+              <h3 className="text-2xl font-bold pt-2 "><FaPhone /></h3>
+              <span className="  font-bold text-2xl ">
+                Phone
+              </span>
+            </div>
+            <p className="text-gray-400 font-sans ms-10">01756303112 , 01585532868</p>
 
 
 
-              <div className="flex gap-5 mt-10">
-                <h3 className="text-2xl font-bold pt-2 ">Follow Me</h3>
+            <div className="ms-2">
+              <h3 className="text-2xl font-bold mb-4  ">Follow Me</h3>
 
-              </div>
-              <div className="mt-5 ">
-                <div className="flex space-x-4">
+
+              <div className=" ">
+                <div className="flex space-x-4 flex-wrap">
                   <a
                     href="#"
-                    className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-accent-purple hover:bg-purple hover:text-white transition-colors"
+                    className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-accent-purple hover:bg-purple-500 hover:text-white transition-colors"
                   >
                     <svg
                       stroke="currentColor"
@@ -89,7 +89,7 @@ const Contact = () => {
                   </a>
                   <a
                     href="#"
-                    className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-accent-blue hover:bg-blue hover:text-white transition-colors"
+                    className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-accent-blue hover:bg-blue-500 hover:text-white transition-colors"
                   >
                     <svg
                       stroke="currentColor"
@@ -140,22 +140,22 @@ const Contact = () => {
 
               </div>
 
-
-
-
-
-
             </div>
+
+
+
 
           </div>
 
-
-
-
         </div>
 
-        </div>
-    );
+
+
+
+      </div>
+
+    </div>
+  );
 };
 
 export default Contact;
